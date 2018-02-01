@@ -4,3 +4,6 @@
 *.txt
 # Ignore Paint files #
 *.bmp
+# Ignore test Folder #
+*.test
+
