@@ -1,0 +1,15 @@
+git intit
+git commit-m ""
+git push -u 
+git remote add origin http
+git remote rm origin http
+git clone http
+git rm -r --cached
+git rm -r
+git add .
+cd 
+ls git help 
+mkdir
+vi 
+cat (shows content)
+commmand>file name(piping)
