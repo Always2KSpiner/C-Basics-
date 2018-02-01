@@ -1,6 +1,6 @@
 # ignore dat files #
-.dat
+*.dat
 #ignore txt files #
-.txt
+*.txt
 # Ignore Paint files #
-.bmp
+*.bmp
