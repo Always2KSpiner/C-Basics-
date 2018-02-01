@@ -1,4 +1,4 @@
-#include<isotream>
+#include<iostream>
 using namespace std;
 class tess
 {
