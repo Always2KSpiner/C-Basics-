@@ -6,4 +6,3 @@ int main()
 	return 0;
 }
 //HI MY name is this
-//ok
