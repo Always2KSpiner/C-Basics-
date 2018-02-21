@@ -3,13 +3,22 @@ git commit-m ""
 git push -u 
 git remote add origin http
 git remote rm origin http
+git remote (list of all links)
 git clone http
 git rm -r --cached
 git rm -r
+git status
+rm -r (remove from local directory only)
 git add .
 cd 
-ls git help 
+ls 
+git help 
 mkdir
 vi 
 cat (shows content)
 commmand>file name(piping)
+.sh(shell scripts)
+git log 
+git log -n ....
+git log  --p
+git log --pretty=format:"%h - %an, %ar : %s" 

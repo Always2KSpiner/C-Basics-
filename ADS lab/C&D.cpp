@@ -1,36 +1,40 @@
 #include<iostream>
 using namespace std;
-class tess
+class consti
 {
+ public:
 int a,b;
-public:
-tess()
+consti()
 {
 a=10;
 b=50;
-cout<<"CONSTRUCTOR CALLED(DEFAULT)";
+cout<<"CONSTRUCTOR CALLED(DEFAULT)\n";
+cout<<a<<endl<<b<<endl;
 }
-tess(int s,int q)
+consti(int s,int q)
 {
 a=s;
 b=q;
-cout<<"CONSTRUCTOR CALLED(PARAMETER)";
+cout<<"CONSTRUCTOR CALLED(PARAMETER)\n";
+cout<<a<<endl<<b<<endl;
 }
-~tess()
+consti(consti &l)
 {
-cout<<"DESTRUCTOR CALLED";
+cout<<"CONSTRUCTOR CALLED(COPY)\n";
+}
+~consti()
+{
+cout<<"DESTRUCTOR CALLED\n";
 }
 };
 int main()
 {
-tess a,b;
-tess a();
+consti a,b;
 {
-tess b();
-{
-tess a(10,5);
-tess b(6,4);
+consti a(10,5);
 }
+{
+consti b(a);
 }
 return 0;
 }
