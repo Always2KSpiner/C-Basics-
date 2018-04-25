@@ -22,3 +22,12 @@ git log
 git log -n ....
 git log  --p
 git log --pretty=format:"%h - %an, %ar : %s" 
+git log --oneline --all --decorate --graph
+git branch <branchname>
+git barnch -d <branchname> (merged branch)
+git branch -D <branchname> (Unmerged Branch)
+git checkout <branchname> (switch branch)
+git merge <branchname>
+git mergetool 
+git fetch <origin>
+git checkout --track <origin>/<branchname> (to Get Branch From remote Repo)
