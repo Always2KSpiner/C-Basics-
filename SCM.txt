@@ -6,7 +6,7 @@ git remote rm origin
 git remote (list of all links)
 git remote show <origin>(link Details)
 git clone http
-git rm -r --cached
+git rm -r --cached(from repo only)
 git rm -r
 git status
 rm -r (remove from local directory only)
