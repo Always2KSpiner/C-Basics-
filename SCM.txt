@@ -32,3 +32,4 @@ git merge <branchname>
 git mergetool 
 git fetch <origin>
 git checkout --track <origin>/<branchname> (to Get Branch From remote Repo)
+git reset
