@@ -34,3 +34,4 @@ git fetch <origin>
 git checkout --track <origin>/<branchname> (to Get Branch From remote Repo)
 git reset
  delete a branch remotely: git push <remote> --delete <branch>
+git pull origin master --allow-unrelated-histories
